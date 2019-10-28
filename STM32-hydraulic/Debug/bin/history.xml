@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.4 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=teste_usart.map -O0 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\teste_usart -TC:\CooCox\CoIDE\configuration\ProgramData\teste_usart/arm-gcc-link.ld -g -L..\..\.. -lm">
+      <target file="teste_usart.elf" lastModified="16e149193d2">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="16e14908517"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="16e149085f3"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="16e14908657"/>
+         <source file="..\obj\main.o" lastModified="16e14919107"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="16e149087bf"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="16e14908873"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="16e14908931"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="16e149089d1"/>
+         <source file="..\obj\syscalls.o" lastModified="16e14908a7b"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="16e14908b2f"/>
+         <source file="..\obj\misc.o" lastModified="16e14908bcf"/>
+         <source file="..\obj\serial.o" lastModified="16e14908c67"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="16e14908d69"/>
+         <source file="..\obj\usart.o" lastModified="16e14908dff"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Rodrigo\Desktop\STM32-hydraulic----\cmsis_boot -I..\..\..\..\..\Users\Rodrigo\Desktop\STM32-hydraulic----\cmsis_lib -I..\..\..\..\..\Users\Rodrigo\Desktop -I..\..\..\..\..\Users\Rodrigo -I..\..\..\..\..\Users\Rodrigo\Desktop\STM32-hydraulic----\cmsis_lib\include -I..\..\..\..\..\Users\Rodrigo\Desktop\STM32-hydraulic---- -I..\..\..\..\..\Users\Rodrigo\Desktop\STM32-hydraulic----\cmsis">
+      <target file="syscalls.o" lastModified="16e14a93b8b">
+         <source file="..\..\..\cmsis_lib\source\syscalls.c" lastModified="15b21def40d"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="16e14a93a46">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15b21def4a4"/>
+      </target>
+      <target file="serial.o" lastModified="16e14a93d5c">
+         <source file="..\..\..\serial.c" lastModified="15b21def0ad"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="16e14a93947">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_it.c" lastModified="15b21def48b"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="16e14a93e65">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15b21def44d"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="16e14a93af0">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15b21def60f"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="16e14a93613">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15b21def64e"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="16e14a935ba">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15b21def41e"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="16e14a933a7">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="15b21def45c"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="16e14a93c2b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="15b21def4ba"/>
+      </target>
+      <target file="main.o" lastModified="16e14ab5718">
+         <source file="..\..\..\main.c" lastModified="16e14ab52c6"/>
+      </target>
+      <target file="usart.o" lastModified="16e14a93f05">
+         <source file="..\..\..\cmsis_lib\source\usart.c" lastModified="15b21def405"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="16e14a9388e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15b21def47e"/>
+      </target>
+      <target file="misc.o" lastModified="16e14a93ccb">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15b21def4d1"/>
+      </target>
+   </processor>
+</history>
